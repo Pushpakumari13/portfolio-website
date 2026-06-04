@@ -1,9 +1,37 @@
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 50px;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
 }
 
-h1 {
-    color: blue;
+header {
+    text-align: center;
+    background: #0077b5;
+    color: white;
+    padding: 30px;
+}
+
+.profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+section {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btn {
+    display: inline-block;
+    background: white;
+    color: #0077b5;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
 }
