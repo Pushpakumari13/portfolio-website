@@ -1,10 +1,3 @@
-// Welcome message
 window.onload = function () {
-    alert("Welcome to my Portfolio Website!");
+    console.log("Portfolio Website Loaded Successfully");
 };
-
-// Button click function
-function showMessage() {
-    document.getElementById("message").innerHTML =
-        "Thank you for visiting my portfolio!";
-}
